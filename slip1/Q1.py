@@ -1,15 +1,7 @@
+# Write a Python function to check whether a number is in a given range.
+
 def in_range(num, start, end):
-    """
-    Check if the number `num` falls within the range [start, end].
-
-    Parameters:
-        num (int): The number to check.
-        start (int): The start of the range (inclusive).
-        end (int): The end of the range (inclusive).
-
-    Returns:
-        bool: True if `num` is within the range [start, end], False otherwise.
-    """
+    
     return start <= num <= end
 # Example usage:
 num = 10
